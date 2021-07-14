@@ -5,7 +5,7 @@ import AddExpense from "./AddExpense";
 
 const Summary = () => {
   return (
-    <Container>
+    <Container className="summary">
       <Chart />
       <AddExpense />
     </Container>

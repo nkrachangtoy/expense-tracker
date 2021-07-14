@@ -15,7 +15,7 @@ A web application to track your expenses
 
 ### Milestones 1
 
-- [ ] Style Dashboard
+- [x] Style Dashboard
 - [ ] Static Transaction Data
 
 ### Milestones 2

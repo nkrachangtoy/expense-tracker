@@ -1,11 +1,10 @@
 import React from "react";
-import Card from "./Card";
 
 const ExpenseItem = () => {
   return (
-    <Card>
+    <div>
       <h3>Expense List</h3>
-    </Card>
+    </div>
   );
 };
 

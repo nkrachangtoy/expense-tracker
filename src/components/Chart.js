@@ -3,7 +3,7 @@ import Card from "./Card";
 
 const Chart = () => {
   return (
-    <Card>
+    <Card className="chart">
       <h3>Chart</h3>
     </Card>
   );

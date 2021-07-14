@@ -1,0 +1,15 @@
+@mixin header($font-size, $line-height) {
+  font-family: "Poppins-Bold";
+  font-size: $font-size;
+  line-height: $line-height;
+}
+@mixin subheader($font-size, $line-height) {
+  font-family: "Poppins-Semi";
+  font-size: $font-size;
+  line-height: $line-height;
+}
+@mixin text($font-size, $line-height) {
+  font-family: "Poppins-Regular";
+  font-size: $font-size;
+  line-height: $line-height;
+}
