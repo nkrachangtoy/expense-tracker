@@ -5,7 +5,9 @@ A web application to track your expenses
 ### Built with
 
 - React
-- SASS
+- CSS and SASS
+- Node.js and Express.js
+- MongoDB
 
 ### Mockup
 
@@ -26,6 +28,7 @@ A web application to track your expenses
 
 ### Packages
 
+- [Axios](https://www.npmjs.com/package/axios)
 - [Redux](https://redux.js.org/)
 - [Chart.js](https://www.npmjs.com/package/chart.js?activeTab=readme)
 
