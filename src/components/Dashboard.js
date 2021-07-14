@@ -1,7 +1,19 @@
 import React from "react";
 
-function Dashboard() {
-  return <div className="dashboard"></div>;
-}
+// Components
+import Card from "./Card";
+import SideNav from "./SideNav";
+import ExpenseOverview from "./ExpenseOverview";
+import Summary from "./Summary";
+
+const Dashboard = () => {
+  return (
+    <Card className="dashboard">
+      <SideNav />
+      <ExpenseOverview />
+      <Summary />
+    </Card>
+  );
+};
 
 export default Dashboard;

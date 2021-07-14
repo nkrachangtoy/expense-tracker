@@ -1,12 +1,12 @@
 import React from "react";
 import Card from "./Card";
 
-const ExpenseItem = () => {
+const AddExpense = () => {
   return (
     <Card>
-      <h3>Expense List</h3>
+      <h3>Add Expense</h3>
     </Card>
   );
 };
 
-export default ExpenseItem;
+export default AddExpense;
