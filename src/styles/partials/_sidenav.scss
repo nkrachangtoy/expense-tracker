@@ -1,0 +1,37 @@
+.side-nav {
+  width: 250px;
+  border-right: 2px solid $border-color;
+  padding-top: 40px;
+  padding-left: 32px;
+  &__header-container {
+    display: flex;
+    align-items: center;
+  }
+  &__header-text {
+    color: $dark-blue;
+    margin-left: 8px;
+    font-family: "Poppins-Semi";
+    font-size: 16px;
+  }
+  &__logo {
+    width: 36px;
+  }
+  &__items {
+    margin-top: 48px;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    width: 165px;
+    height: 39px;
+    padding: 0 16px;
+    background-color: $light-blue;
+    border-radius: 28px;
+  }
+  &__item-text {
+    padding-left: 10px;
+    color: $blue-text;
+    font-family: "Poppins-Regular";
+    font-size: 14px;
+  }
+}
