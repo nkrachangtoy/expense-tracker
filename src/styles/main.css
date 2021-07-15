@@ -177,4 +177,41 @@ li {
 .add-expense {
   height: 47.5%;
 }
+
+.calendar__current-date {
+  font-family: "Poppins-Semi";
+  font-size: 14px;
+  line-height: 16px;
+  color: #192a3e;
+  margin: 24px;
+}
+
+.calendar__weekly {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #f8f8f8;
+}
+
+.calendar__item {
+  text-align: center;
+}
+
+.calendar__day {
+  font-family: "Poppins-Regular";
+  font-size: 14px;
+  line-height: 14px;
+  color: #707683;
+}
+
+.calendar__date {
+  font-family: "Poppins-Regular";
+  font-size: 14px;
+  line-height: 14px;
+  color: #323c47;
+}
 /*# sourceMappingURL=main.css.map */
