@@ -1,9 +1,11 @@
 import React from "react";
+import TransactionList from "./TransactionList";
 
 const ExpenseItem = () => {
   return (
-    <div>
-      <h3>Expense List</h3>
+    <div className="transaction-list">
+      <h3 className="transaction-list__header">Transaction history</h3>
+      <TransactionList />
     </div>
   );
 };

@@ -214,4 +214,47 @@ li {
   line-height: 14px;
   color: #323c47;
 }
+
+.transaction-list__header {
+  font-family: "Poppins-Semi";
+  font-size: 20px;
+  line-height: 18px;
+  margin-left: 16px;
+}
+
+.transaction-list__table {
+  width: 100%;
+  text-align: left;
+  padding: 0 32px;
+}
+
+.transaction-list__column th {
+  font-family: "Poppins-Semi";
+  font-size: 14px;
+  line-height: 14px;
+  color: #707683;
+  height: 32px;
+}
+
+.transaction-list__column th:last-child {
+  text-align: right;
+}
+
+.transaction-list__row td {
+  font-family: "Poppins-Regular";
+  font-size: 14px;
+  line-height: 14px;
+  color: #707683;
+  border-bottom: 1px solid #f8f8f8;
+  height: 32px;
+}
+
+.transaction-list__row td:first-child {
+  color: #323c47;
+}
+
+.transaction-list__row td:last-child {
+  text-align: right;
+  color: #323c47;
+}
 /*# sourceMappingURL=main.css.map */
