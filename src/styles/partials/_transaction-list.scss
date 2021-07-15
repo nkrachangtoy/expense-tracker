@@ -7,21 +7,27 @@
     width: 100%;
     text-align: left;
     padding: 0 32px;
+    border-spacing: 0;
   }
   &__column {
     th {
       @include subheader(14px, 14px);
       color: $table-gray;
       height: 32px;
+      padding: 0;
       &:last-child {
         text-align: right;
       }
     }
   }
   &__row {
+    &:hover {
+      background-color: rgba($color: $table-gray, $alpha: 0.15);
+    }
     td {
       @include text(14px, 14px);
       color: $table-gray;
+      padding: 0;
       border-bottom: 1px solid $border-color;
       height: 32px;
       &:first-child {
