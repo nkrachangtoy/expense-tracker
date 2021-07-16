@@ -1,8 +1,8 @@
 import React from "react";
-import Card from "../Utils/Card";
-import Container from "../Utils/Container";
+import Card from "../UI/Card";
+import Container from "../UI/Container";
 import ExpenseList from "./ExpenseList";
-import Calendar from "../Utils/Calendar";
+import Calendar from "../UI/Calendar";
 import Summary from "../Summary";
 
 const ExpenseOverview = () => {

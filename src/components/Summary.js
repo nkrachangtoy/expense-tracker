@@ -1,5 +1,5 @@
 import React from "react";
-import Container from "./Utils/Container";
+import Container from "./UI/Container";
 import Chart from "./Chart/Chart.js";
 import AddExpense from "./Expense/AddExpense";
 

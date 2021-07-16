@@ -1,7 +1,7 @@
 import React from "react";
 
 // Components
-import Card from "./Utils/Card";
+import Card from "./UI/Card";
 import SideNav from "./SideNav";
 import ExpenseOverview from "./Expense/ExpenseOverview";
 

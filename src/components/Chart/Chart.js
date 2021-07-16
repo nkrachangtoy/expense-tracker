@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../Utils/Card";
+import Card from "../UI/Card";
 import LineChart from "./LineChart";
 
 const Chart = () => {
