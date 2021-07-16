@@ -10,34 +10,42 @@ const LineChart = () => {
     gradient.addColorStop(1, "rgba(12, 156, 241, 0)");
 
     return {
-      labels: ["1", "5", "9", "10", "11", "12"],
+      labels: ["1", "5", "9", "10", "11", "12", "13"],
       datasets: [
         {
           label: "Sum",
-          data: [90, 15, 150, 45, 32, 30],
+          data: [90, 15, 150, 45, 32, 30, 170],
           fill: true,
           backgroundColor: gradient,
           borderColor: "#108CF1",
           tension: 0.5,
+          pointRadius: 0,
         },
       ],
     };
   };
 
   const options = {
-    responsive: true,
-    legend: {
-      display: false,
+    plugins: {
+      legend: {
+        display: false,
+      },
     },
+    responsive: true,
     scales: {
       x: {
         grid: {
-          color: "#fff",
+          display: false,
         },
       },
       y: {
+        grid: {
+          borderDash: [10, 10],
+          color: "#D3D8DD",
+        },
         ticks: {
           beginAtZero: true,
+          stepSize: 50,
         },
       },
     },
