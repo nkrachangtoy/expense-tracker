@@ -21,14 +21,15 @@ A web application to track your expenses
 ### Milestones 2
 
 - [x] Implement chart.js with static data
-- [ ] Add Expense Form
+- [x] Add Expense Form
 
 ### Milestones 3
 
-- [ ] Add expense function
+- [x] Add expense function
 
 ### Milestones 4
 
+- [ ] Handle states
 - [ ] Replace static data with dynamic data
 
 ### Packages
