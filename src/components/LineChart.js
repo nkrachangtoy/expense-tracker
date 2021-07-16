@@ -4,9 +4,10 @@ import { Line } from "react-chartjs-2";
 const LineChart = () => {
   const data = (canvas) => {
     const ctx = canvas.getContext("2d");
-    const gradient = ctx.createLinearGradient(0, 0, 0, 200);
+    const gradient = ctx.createLinearGradient(0, 0, 0, 250);
     gradient.addColorStop(0, "rgba(16, 156, 241, 0.75)");
-    gradient.addColorStop(0.5, "rgba(16, 156, 241, 0.25)");
+    gradient.addColorStop(0.5, "rgba(16, 156, 241, 0.5)");
+    gradient.addColorStop(0.75, "rgba(16, 156, 241, 0.25)");
     gradient.addColorStop(1, "rgba(12, 156, 241, 0)");
 
     return {
@@ -31,7 +32,6 @@ const LineChart = () => {
         display: false,
       },
     },
-    responsive: true,
     scales: {
       x: {
         grid: {
