@@ -3,7 +3,7 @@ import TextField from "@material-ui/core/TextField";
 import InputAdornment from "@material-ui/core/InputAdornment";
 import MenuItem from "@material-ui/core/MenuItem";
 
-const ExpenseForm = () => {
+const ExpenseForm = (props) => {
   const [values, setValues] = useState({
     transaction: "",
     type: "",
@@ -38,7 +38,7 @@ const ExpenseForm = () => {
       date: new Date(values.date),
       amount: values.amount,
     };
-    console.log(expenseData);
+    props.onSaveExpenseData(expenseData);
     setValues({
       transaction: "",
       type: "",

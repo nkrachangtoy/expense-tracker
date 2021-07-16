@@ -1,9 +1,9 @@
 import React from "react";
 
 // Components
-import Card from "./Card";
+import Card from "./Utils/Card";
 import SideNav from "./SideNav";
-import ExpenseOverview from "./ExpenseOverview";
+import ExpenseOverview from "./Expense/ExpenseOverview";
 
 const Dashboard = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
-import Container from "./Container";
-import Chart from "./Chart";
-import AddExpense from "./AddExpense";
+import Container from "./Utils/Container";
+import Chart from "./Chart/Chart.js";
+import AddExpense from "./Expense/AddExpense";
 
 const Summary = () => {
   return (

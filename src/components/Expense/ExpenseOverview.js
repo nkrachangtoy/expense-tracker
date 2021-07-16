@@ -1,9 +1,9 @@
 import React from "react";
-import Card from "./Card";
-import Container from "./Container";
-import ExpenseItem from "./ExpenseItem";
-import Calendar from "./Calendar";
-import Summary from "./Summary";
+import Card from "../Utils/Card";
+import Container from "../Utils/Container";
+import ExpenseList from "./ExpenseList";
+import Calendar from "../Utils/Calendar";
+import Summary from "../Summary";
 
 const ExpenseOverview = () => {
   return (
@@ -15,7 +15,7 @@ const ExpenseOverview = () => {
       <div className="expense-overview__main-content">
         <Card className="expense-overview__content-container">
           <Calendar />
-          <ExpenseItem />
+          <ExpenseList />
         </Card>
         <Summary />
       </div>
