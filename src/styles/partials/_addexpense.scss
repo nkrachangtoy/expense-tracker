@@ -1,3 +1,25 @@
 .add-expense {
   height: 47.5%;
+  &__header-container {
+    border-bottom: 2px solid $border-color;
+  }
+  &__header {
+    @include card-header-text;
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 18px;
+  }
+  &__action {
+    background-color: $light-blue;
+    color: $blue-text;
+    @include text(14px, 14px);
+    border: none;
+    border-radius: 28px;
+    width: 165px;
+    height: 40px;
+  }
 }

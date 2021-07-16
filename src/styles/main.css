@@ -74,6 +74,7 @@ li {
   margin-left: 8px;
   font-family: "Poppins-Semi";
   font-size: 16px;
+  line-height: 16px;
 }
 
 .side-nav__logo {
@@ -103,6 +104,7 @@ li {
   color: #197bbd;
   font-family: "Poppins-Regular";
   font-size: 14px;
+  line-height: 14px;
 }
 
 .card {
@@ -202,6 +204,45 @@ li {
   height: 47.5%;
 }
 
+.add-expense__header-container {
+  border-bottom: 2px solid #f8f8f8;
+}
+
+.add-expense__header {
+  font-family: "Poppins-Semi";
+  font-size: 16px;
+  line-height: 14px;
+  color: #192a3e;
+  margin: 16px 0 12px 24px;
+}
+
+.add-expense__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  padding: 18px;
+}
+
+.add-expense__action {
+  background-color: #f0f7ff;
+  color: #197bbd;
+  font-family: "Poppins-Regular";
+  font-size: 14px;
+  line-height: 14px;
+  border: none;
+  border-radius: 28px;
+  width: 165px;
+  height: 40px;
+}
+
 .calendar__current-date {
   font-family: "Poppins-Semi";
   font-size: 14px;
@@ -287,5 +328,48 @@ li {
 .transaction-list__row td:last-child {
   text-align: right;
   color: #323c47;
+}
+
+.add-expense {
+  height: 47.5%;
+}
+
+.add-expense__header-container {
+  border-bottom: 2px solid #f8f8f8;
+}
+
+.add-expense__header {
+  font-family: "Poppins-Semi";
+  font-size: 16px;
+  line-height: 14px;
+  color: #192a3e;
+  margin: 16px 0 12px 24px;
+}
+
+.add-expense__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  padding: 18px;
+}
+
+.add-expense__action {
+  background-color: #f0f7ff;
+  color: #197bbd;
+  font-family: "Poppins-Regular";
+  font-size: 14px;
+  line-height: 14px;
+  border: none;
+  border-radius: 28px;
+  width: 165px;
+  height: 40px;
 }
 /*# sourceMappingURL=main.css.map */

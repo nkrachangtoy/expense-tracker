@@ -10,8 +10,7 @@
   &__header-text {
     color: $dark-blue;
     margin-left: 8px;
-    font-family: "Poppins-Semi";
-    font-size: 16px;
+    @include subheader(16px, 16px);
   }
   &__logo {
     width: 36px;
@@ -31,7 +30,6 @@
   &__item-text {
     padding-left: 10px;
     color: $blue-text;
-    font-family: "Poppins-Regular";
-    font-size: 14px;
+    @include text(14px, 14px);
   }
 }

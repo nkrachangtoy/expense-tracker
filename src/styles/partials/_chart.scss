@@ -9,8 +9,6 @@
     display: flex;
   }
   &__header {
-    @include subheader(16px, 14px);
-    color: $black;
-    margin: 16px 0 12px 24px;
+    @include card-header-text;
   }
 }

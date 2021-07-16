@@ -20,17 +20,23 @@ A web application to track your expenses
 
 ### Milestones 2
 
-- [ ] Implement chart.js
+- [x] Implement chart.js with static data
+- [ ] Add Expense Form
 
 ### Milestones 3
 
-- [ ] Add Expense Form
+- [ ] Add expense function
+
+### Milestones 4
+
+- [ ] Replace static data with dynamic data
 
 ### Packages
 
 - [Axios](https://www.npmjs.com/package/axios)
 - [Redux](https://redux.js.org/)
-- [Chart.js](https://www.npmjs.com/package/chart.js?activeTab=readme)
+- [Chart.js](https://www.npmjs.com/package/react-chartjs-2)
+- [MaterialUI](https://material-ui.com/)
 
 ### Author
 
