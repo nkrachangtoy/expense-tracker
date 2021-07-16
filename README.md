@@ -32,12 +32,30 @@ A web application to track your expenses
 - [ ] Handle states
 - [ ] Replace static data with dynamic data
 
+### Milestones 5
+
+- [ ] Setup Server side
+- [ ] Connect to MongoDB
+
 ### Packages
 
 - [Axios](https://www.npmjs.com/package/axios)
 - [Redux](https://redux.js.org/)
 - [Chart.js](https://www.npmjs.com/package/react-chartjs-2)
 - [MaterialUI](https://material-ui.com/)
+
+### To view the application
+
+    npm install
+
+To start client server:
+
+    cd expense-tracker
+    npm start
+
+To visit app:
+
+    localhost:3000
 
 ### Author
 
