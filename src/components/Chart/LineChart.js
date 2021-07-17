@@ -1,7 +1,19 @@
 import React from "react";
 import { Line } from "react-chartjs-2";
 
-const LineChart = () => {
+const LineChart = (props) => {
+  const expenses = props.items;
+
+  const createLabels = expenses.map((expense) =>
+    new Date(expense.date).getDate()
+  );
+
+  const createData = expenses.map((expense) => parseInt(expense.amount));
+
+  // Create data for line graph
+  // sum amount each day
+  // return sum array
+
   const data = (canvas) => {
     const ctx = canvas.getContext("2d");
     const gradient = ctx.createLinearGradient(0, 0, 0, 250);
@@ -11,11 +23,11 @@ const LineChart = () => {
     gradient.addColorStop(1, "rgba(12, 156, 241, 0)");
 
     return {
-      labels: ["1", "5", "9", "10", "11", "12", "13"],
+      labels: createLabels,
       datasets: [
         {
           label: "Sum",
-          data: [90, 15, 150, 45, 32, 30, 170],
+          data: createData,
           fill: true,
           backgroundColor: gradient,
           borderColor: "#108CF1",

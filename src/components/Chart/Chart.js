@@ -2,7 +2,7 @@ import React from "react";
 import Card from "../UI/Card";
 import LineChart from "./LineChart";
 
-const Chart = () => {
+const Chart = (props) => {
   return (
     <Card className="chart">
       <div className="chart__header-container">
@@ -18,7 +18,7 @@ const Chart = () => {
           </select>
         </div> */}
       </div>
-      <LineChart />
+      <LineChart items={props.items} />
     </Card>
   );
 };
